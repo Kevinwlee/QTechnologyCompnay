@@ -1,3 +1,6 @@
+%script{:src => "../javascripts/jquery-1.4.2.min.js", :type => "text/javascript"}
+%script{:src => "../javascripts/jquery.cycle.lite.min.js", :type => "text/javascript"}
+%script{:src => "../javascripts/mycycle.js", :type => "text/javascript"}
 .post
   %h1.title Q Technology Company
   .entry
@@ -5,5 +8,12 @@
       Based in Kingwood
       %strong Q Technology Company
       is a local low cost provider of website services.  Out commitment is creating a professional presence on the web for your business.  We pride ourselves on building simple clean modern websites that help businesses connect with their customers.
-    %p
-      %img{:src => "http://lh4.ggpht.com/_2vsBDUpb9uE/S1-2IScLK2I/AAAAAAAAATI/ezL6nGb3TKc/s400/IMG_0264.JPG"}/
+    #cycle
+      %a{:href => "http://tallythings.com"}
+        %img{:alt => "1", :height => "400", :src => "../images/tallythings-overlay.png", :width => "577"}/
+      %a{:href => "http://chewyq.com"}
+        %img{:alt => "2", :height => "400", :src => "../images/chewyq-overlay.png", :width => "563"}/
+      %a{:href => "http://runnersq.com"}
+        %img{:alt => "3", :height => "400", :src => "../images/runnersq-overlay.png", :width => "566"}/
+      %a{:href => "http://mdumcresponse.com"}
+        %img{:alt => "4", :height => "400", :src => "../images/mdumc-overlay.png", :width => "562"}/
