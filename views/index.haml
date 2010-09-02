@@ -1,19 +1,21 @@
 %script{:src => "../javascripts/jquery-1.4.2.min.js", :type => "text/javascript"}
 %script{:src => "../javascripts/jquery.cycle.lite.min.js", :type => "text/javascript"}
 %script{:src => "../javascripts/mycycle.js", :type => "text/javascript"}
-.post
-  %h1.title Q Technology Company
-  .entry
-    %p
-      Based in Kingwood
-      %strong Q Technology Company
-      is a local low cost provider of website services.  Our commitment is to create a professional presence on the web for your business.  We pride ourselves on building simple clean modern websites that help businesses connect with their customers.
-    #cycle
-      %a{:href => "http://tallythings.com"}
-        %img{:alt => "1", :height => "400", :src => "../images/tallythings-overlay.png", :width => "577"}/
-      %a{:href => "http://chewyq.com"}
-        %img{:alt => "2", :height => "400", :src => "../images/chewyq-overlay.png", :width => "563"}/
-      %a{:href => "http://runnersq.com"}
-        %img{:alt => "3", :height => "400", :src => "../images/runnersq-overlay.png", :width => "566"}/
-      %a{:href => "http://mdumcresponse.com"}
-        %img{:alt => "4", :height => "400", :src => "../images/mdumc-overlay.png", :width => "562"}/
+.grid_16
+  .post
+    %h1.title Q Technology Company
+    .entry
+      %p
+        Based in Kingwood
+        %strong Q Technology Company
+        is a local low cost provider of website services.  Our commitment is to create a professional presence on the web for your business.  We pride ourselves on building simple clean modern websites that help businesses connect with their customers.
+      #cycle.grid_14.omega
+        %a{:href => "http://tallythings.com"}
+          %img{:alt => "1", :height => "400", :src => "../images/tallythings-overlay.png", :width => "577"}/
+        %a{:href => "http://chewyq.com"}
+          %img{:alt => "2", :height => "400", :src => "../images/chewyq-overlay.png", :width => "563"}/
+        %a{:href => "http://runnersq.com"}
+          %img{:alt => "3", :height => "400", :src => "../images/runnersq-overlay.png", :width => "566"}/
+        %a{:href => "http://mdumcresponse.com"}
+          %img{:alt => "4", :height => "400", :src => "../images/mdumc-overlay.png", :width => "562"}/
+      
